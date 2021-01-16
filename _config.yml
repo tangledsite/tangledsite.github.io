@@ -232,3 +232,5 @@ plugins:
   - jekyll-sitemap
 
 # Beautiful Jekyll / Dean Attali
+
+theme: jekyll-theme-cayman
