@@ -1,0 +1,170 @@
+---
+layout: page
+title: SAND Project
+#subtitle:  Self-managing Anycast Networks for DNS
+---
+
+<hr>
+<h4 style="text-align:center; margin:5%">
+We perform applied research in Anycast networks. <br> Our goal: traffic
+engineering and DDoS mitigation.
+</h4>
+
+
+<hr>
+<div class="container-fluid">
+<div class="col-sm-12 col-sm-offset-0"> 
+	<div class="row text-center"><br>
+   		<div class="col-md-4 col-sm-4">
+            <img src="/img/location.svg" width="90%" height="90%" alt="img banner" class="img-circle img-thumbnail">
+            <h3 style="color:#245075">Anycast Catchment</h3>
+			<!--	<p> Catchment refers to the nearby anycast site from the perspective of each user. -->
+			<p>Active monitoring the visibility of the anycast sites enable to use the historical graph to predict future traffic load.</p>
+        </div>
+        <div class="col-md-4 col-sm-4">
+            <img src="/img/bgp.svg" alt="" width="90%" height="90%" class="img-circle img-thumbnail">
+            <h3 class="h3-color">BGP Route Annouces</h3>
+	        <p> Modify BGP route announces enables to change each site visibility and redirect traffic from one site to another. </p>
+        </div>
+        <div class="col-md-4 col-sm-4">
+            <img src="/img/load.svg" alt="" width="90%" height="90%" class="img-circle img-thumbnail">
+            <h3 class="h3-color">Load <br>Distribution</h3>
+            <p>Assist operators to accurately distribute the traffic load across sites is fundamental to develop a defense strategy.</p>
+        </div>
+	</div>
+</div>
+</div>
+
+<hr>
+<h4>Problem: </h4> 
+Anycast relies on the Internet Routing that we do not have the fine
+grain control.  We should monitor how the Internet sees our service
+and find the best approach to influence the clients' reachability.
+
+<h4>Our solution: </h4> 
+
+We have developed a <a
+href="https://github.com/Woutifier/verfploeter">tool</a> using a
+simple and novel <a
+href="https://dl.acm.org/citation.cfm?id=3131371">approach</a>. Thus,
+we do regular measurements and observe how our policy can modify
+traffic distribution across the anycast nodes.
+<hr>
+
+
+<br>
+<h5>Cases:</h5>
+<hr>
+
+We are proud to say that folks from root-server letter B and
+CloudFlare are using the proposed methodology to monitor their anycast
+networks.
+
+<br>
+<br>
+
+<div class="col-sm-12 col-sm-offset-0"> 
+    <div class="row text-center">
+        <img style="border: 0px solid #000;margin-left:40px" src="/img/usc.png">
+        <img style="border: 0px solid #000;margin-left:60px" src="/img/cloud.png">
+    </div>
+</div>
+<br>
+<br>
+
+<!--
+<hr>
+
+<br>
+<br>
+<h6>Catchment investigation dashboard:</h6>
+<div class="col-sm-12 col-sm-offset-0"> 
+	<div class="row text-center"><br>
+   			<img style="border: 1px solid #000;" src="/img/sand-dashboard.gif">
+	</div>
+
+</div>
+<br>
+<br>
+<br>
+<br>
+
+-->
+<div class="col-sm-12 col-sm-offset-0"> 
+	<div class="row" id="news"><br>
+        <hr>
+   	    <h4>Latest news</h4>
+	</div>
+</div>
+
+<div class="container-fluid" style="margin: 0% 05% 0% 05%">
+  <div class="col-sm-12 col-sm-offset-0">
+    <div class="row"><br>
+
+      {% for post in paginator.posts %}
+      <div class="col-md-4 col-sm-4" style="background-color: white;">
+       <div class="card" style="border:1px solid rgba(0,0,0,.125); background-color:white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+       <div class="card-header" style="min-height: 40px;!important; text-align:center">
+          <h4 class="card-title"><a>{{ post.title }}</a></h4>
+        </div>
+        <div class="card-body" style="max-height: 200px;!important margin-top: -00px; color:#000000" >
+          <p class="card-text" style="max-height: 200px;!important; font-size:14px; margin: -2px 5px 0 5px;  min-height: 80px;!important" >
+               {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+               {% assign excerpt_word_count = post.excerpt | number_of_words %}
+               {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
+               {% endif %}
+         </p>
+      <p class="card-text" style="margin-top: -7px; text-align:center;  font-size:12px;" ><small class="text-muted">{{ post.date | date: "%B %-d, %Y" }}</small></p>
+
+        <div class="form-row text-center" style="margin-bottom: 10px;">
+        <a href="{{ post.url | relative_url }}" class="btn btn-primary btn-sm">[Read&nbsp;More]</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  <hr>
+</div>
+</div>
+</div>
+
+{% if paginator.total_pages > 1 %}
+<ul class="pager main-pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+
+    {% assign new_link = paginator.previous_page_path | append: "#news" %}
+    <a href="{{ new_link | relative_url }}">&larr; Newer Posts</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="next">
+    {% assign new_link = paginator.next_page_path| append: "#news" %}
+    <a href="{{ new_link | relative_url }}">Older Posts &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
+
+<hr>
+
+
+
+<h6>SAND is a joint project:</h6>
+<div class="container-fluid" style="margin: 0% 25% 0% 25%">
+<div class="col-sm-12 col-sm-offset-0"> 
+	<div class="row text-center"><br>
+   		<div class="col-md-4 col-sm-4">
+		    <a href="http://www.utwente.nl/"><img src="/img/twente.png"></a>
+        </div>
+        <div class="col-md-4 col-sm-4">
+   			<a href="http://www.sidn.nl/"><img src="/img/sidn-logo.png"></a>
+        </div>
+        <div class="col-md-4 col-sm-4">
+   			<a href="https://nlnetlabs.nl/"><img src="/img/nlnetlab.png"></a>
+        </div>
+	</div>
+</div>
+</div>
+
+
