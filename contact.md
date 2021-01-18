@@ -1,17 +1,17 @@
 ---
 layout: page
-title: SAND Project
+title: Using TANGLED
 ---
 
-SAND is a collaboration between the University of Twente, SIDN and
-NLNETLAB.
+TANGLED is a collaborative research testbed University of Twente, SIDN and
+NLNETLAB, and other partners
 
-For more information on the SAND project, please contact:
+For more information on the TANGLED testbed, please contact:
 
-<h4> Joao Marcelo Ceron </h4>
+<h4> Leandro M. Bertholdo </h4>
 
 
-[<i class="fa fa-globe" style="font-size:20px">Website</i>](http://www.botlog.org/)
+[<i class="fa fa-globe" style="font-size:20px">Website</i>](https://people.utwente.nl/l.m.bertholdo)
 
 
 post

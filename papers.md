@@ -3,15 +3,30 @@ layout: page
 title: Papers
 ---
 
+Leandro M Bertholdo, João M. Ceron, Lisandro Z Granville, Giovane C. M. Moura, Cristian Hesselman, Roland van Rijswijk-Deij. 
+**BGP Anycast Tuner: Intuitive Route Management for Anycast Services**
+CNSM 2020. [<img
+src="/img/pdf.png">](http://dl.ifip.org/db/conf/cnsm/cnsm2020/1570662849.pdf)
+
+Raffaele Sommese, Leandro Bertholdo, Gautam Akiwate, Mattijs Jonker, Roland van Rijswijk-Deij, Alberto Dainotti, KC Claffy, and Anna Sperotto.
+**MAnycast2: Using Anycast to Measure Anycast.** IMC2020.
+[<img
+src="/img/pdf.png">](https://doi.org/10.1145/3419394.3423646)
+
+Wouter B de Vries, Salmān Aljammāz, Roland van Rijswijk-Deij. 
+**Global-Scale Anycast Network Management with Verfploeter.** NOMS 2020 
+[<img
+src="/img/pdf.png">](https://ris.utwente.nl/ws/portalfiles/portal/237704868/DeVries2020global_scale.pdf)
+
 Giovane C. M. Moura, John Heidemann, Moritz M&uuml;ller, Ricardo de O.
 Schmidt, and Marco Davids. **When the Dike Breaks: Dissecting DNS
-Defenses During DDoS.** IMC 2018. To appear. 
+Defenses During DDoS.** IMC 2018. [<img
+src="/img/pdf.png">](https://www.isi.edu/~johnh/PAPERS/Moura18a.pdf)
 
 Giovane C. M. Moura, John Heidemann, Moritz M&uuml;ller, Ricardo de O.
 Schmidt, and Marco Davids. **When the Dike Breaks: Dissecting DNS
 Defenses During DDoS.** Technical Report: ISI-TR-725. [<img
 src="/img/pdf.png">](https://www.sidnlabs.nl/downloads/papers-reports/isi-tr-725.pdf)
-
 
 W. B. de Vries, R. de O. Schmidt, W. Hardaker, J. Heidemann, P.-T. de
 Boer and A. Pras. **Broad and Load-Aware Anycast Mapping with
@@ -32,7 +47,6 @@ conference, Sydney, Australia, pp 188-200, LNCS 10176, 2017.  [<img
 src="/img/pdf.png">](http://wwwhome.cs.utwente.nl/~schmidtr/docs/pam2017schmidt.pdf)
 [<img
 src="/img/doi.png">](https://link.springer.com/chapter/10.1007%2F978-3-319-54328-4_14)
-
 
 G. C. M. Moura, R. de O. Schmidt, J. Heidemann, W. B. de Vries, M.
 M&uuml;ller, L. Wei and C. Hesselman. **Anycast vs. DDoS: Evaluating
