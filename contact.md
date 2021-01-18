@@ -4,14 +4,11 @@ title: Using TANGLED
 ---
 
 TANGLED is a collaborative research testbed University of Twente, SIDN and
-NLNETLAB, and other partners
+NLNETLAB, and other partners. If you are interested in doing any research, or 
+make part of the project, or just more information about TANGLED testbed, 
+please contact:
 
-For more information on the TANGLED testbed, please contact:
-
-<h4> Leandro M. Bertholdo </h4>
-
-
-[<i class="fa fa-globe" style="font-size:20px">Website</i>](https://people.utwente.nl/l.m.bertholdo)
+<h4> Leandro M. Bertholdo </h4> (l.m.bertholdo at utwente dot nl)
 
 
 post
