@@ -26,8 +26,10 @@ navbar-links:
   About: "about"
   Papers: "papers"
   Resources:
-    - Anycast TestBed: "http://www.anycast-testbed.com/"
     - Verfploeter: "https://ant.isi.edu/software/verfploeter/index.html"
+    - Verfploeter GitHub: "https://github.com/LMBertholdo/verfploeter/"
+    - TTL example: "https://github.com/joaoceron/verfploeter-ttl-investigation"
+    - BigQuery example: "https://github.com/LMBertholdo/BQ-rtt"
   Testbed: "testbed" 
   People: "people" 
   Contact: "contact"
