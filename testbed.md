@@ -49,7 +49,7 @@ either operational or being installed.
          <li><a href="https://www.sidnlabs.nl" target="_blank">SIDN Labs</a></li>
      </ul>
      <br>
-     We are also thankful to Nat Morris for his support.
+     We are also thankful to Nat Morris and John Heidemann for their support.
  </div>
 </div>
 
