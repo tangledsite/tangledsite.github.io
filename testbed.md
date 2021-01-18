@@ -29,7 +29,7 @@ IPv6: 2001:610:9000::/40  <br>
 <div class="col-sm-12 col-sm-offset-0">
     <div class="row text-center">
         <div class="col-md-8 col-sm-8">
-            <iframe src="https://www.google.com/maps/d/embed?mid=1ELysbd_HcyENvsuK5auBFbFpwZ0" width="640" height="480"></iframe>
+            <iframe src="https://www.google.com.au/maps/d/u/0/edit?mid=1dkWksZFn4rdCOOPE2I6EGeZP0PnDEG-z&usp=sharing" width="640" height="480"></iframe>
         </div>
         <div class="col-md-4 col-sm-4" style="align:left;text-align: left;margin-top: 50px; ">
             <ul>
