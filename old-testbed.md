@@ -3,8 +3,9 @@ layout: page
 title: Anycast Testbed
 ---
 
-TANGLED was conceived in 2016, during a BGP hackathon organized by CAIDA/UCSD. The first release of the TANGLED was presented during <a href="https://ripe73.ripe.net/archives/video/1429/">RIPE73 </a> meeting.
-In the following years, we expanded the testbed, deploying anycast sites around the world. 
+TANGLED was conceived in 2016, during a BGP hackathon organized by CAIDA/UCSD. In that event, while developing their BGP project, the team “Anycast-1”, with members from the University of Twente (UT) among others, discovered misconfigurations within the Peering BGP testbed. That situation helped us understand the challenges on building an anycast network, and it was the main motivation for the UTwente researchers to start planning their own testbed infrastructure. The first release of the TANGLED was presented during <a href="https://ripe73.ripe.net/archives/video/1429/">RIPE73 </a> meeting.
+In the following years, we expanded our community network around the testbed, deploying anycast sites around the world. Several researches were carried out along the years using the TANGLED network: anycast catchment studies and the tool called VERFPLOETER; and several anti-DDoS studies were carried out using our testbed. Moreover, the TANGLED testbed is actively being used in the projects  <a href="https://www.sand-project.nl/">SAND </a> and  <a href="https://paaddos.nl">PaaDDoS </a> and by our partners in 
+Internet industry.
 
 The anycast research testbed has been created within the context of <a
 href="https://www.utwente.nl/en/eemcs/dacs/">DACS</a>, a consortium
