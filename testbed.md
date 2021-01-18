@@ -31,25 +31,6 @@ IPv6: 2001:610:9000::/40  <br>
         <div class="col-md-8 col-sm-8">
             <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1dkWksZFn4rdCOOPE2I6EGeZP0PnDEG-z" width="640" height="480"></iframe> 
         </div>
-        <div class="col-md-4 col-sm-4" style="align:left;text-align: left;margin-top: 50px; ">
-            <ul>
-                <li>Arnhem, the Netherlands</li>
-                <li>Enschede, the Netherlands</li>
-                <li>London, UK</li>
-                <li>Paris, France</li>
-                <li>Copenhagen, Denmark</li>
-                <li>Miami, USA</li>
-                <li>Seattle, USA</li>
-                <li>Johannesburg, SA</li>
-                <li>Frankfurt, Germany</li>
-                <li>Washington DC, USA</li>
-                <li>São Paulo, Brazil</li>
-                <li>Rio de Janeiro, Brazil</li>
-                <li>Sydney, Australia</li>
-                <li>Tokyo, Japan</li>
-                <li>Singapure, SG</li>
-            </ul>
-        </div>
     </div>
 </div>
 
