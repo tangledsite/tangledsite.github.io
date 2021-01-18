@@ -1,22 +1,21 @@
 ---
 layout: page
-title: SAND Project Team
+title: Tangled Team
 subtitle:  
 ---
 
-#### Team
+#### Contact 
+* Leandro Bertholdo ( l.m.bertholdo at utwente.nl)
+
+#### Supporters 
 * Aiko Pras (Utwente)
 * Benno Overeinder (NLnet Labs)
 * Cristian Hesselman (SIDN)
-* Giovane Moura (SIDN Labs)
-* Jo&atilde;o  Ceron (UTwente)
 * Marc Groeneweg (SIDN)
-* Martin Hoffmann (NLnet Labs)
-* Moritz M&uuml;ller (SIDN Labs)
-* Wouter B. de Vries (Utwente)
 
 #### External Contributors:
-
-* Ricardo de Oliveira Schmidt
-* John Heidemann
+* Jo&atilde;o  Ceron (SIDN Labs)
+* Wouter B. de Vries (Tesorion)
+* Ricardo de Oliveira Schmidt (UPF)
+* John Heidemann (USC)
 
