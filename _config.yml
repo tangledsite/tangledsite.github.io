@@ -30,6 +30,7 @@ navbar-links:
     - Verfploeter GitHub: "https://github.com/LMBertholdo/verfploeter/"
     - TTL example: "https://github.com/joaoceron/verfploeter-ttl-investigation"
     - BigQuery example: "https://github.com/LMBertholdo/BQ-rtt"
+    - Anycast Tuner: "https://github.com/SIDN/BGP-Anycast-Tuner"
   Testbed: "testbed" 
   People: "people" 
   Contact: "contact"
