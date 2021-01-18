@@ -20,11 +20,11 @@ RIPE NCC.
 
 IPv4: 145.100.118.0/23<br>
 IPv6: 2001:610:9000::/40  <br>
+<a href="https://apps.db.ripe.net/db-web-ui/#/lookup?source=RIPE&type=route&key=145.100.118.0%2F23AS1149" >ASN 1149 </a>
+<hr>
 
 The testbed currently in expansion and already has several locations
 either operational or being installed.
-<a href="https://apps.db.ripe.net/db-web-ui/#/lookup?source=RIPE&type=route&key=145.100.118.0%2F23AS1149" >ASN 1149 </a>
-<hr>
 
 <div class="col-sm-12 col-sm-offset-0">
     <div class="row text-center">
