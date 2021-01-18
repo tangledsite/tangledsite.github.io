@@ -11,7 +11,6 @@ please contact:
 <h4> Leandro M. Bertholdo </h4> (l.m.bertholdo at utwente dot nl)
 
 
-post
 
 <div class="posts-list">
   {% for post in paginator.posts %}
