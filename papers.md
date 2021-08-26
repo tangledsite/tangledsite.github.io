@@ -2,6 +2,13 @@
 layout: page
 title: Papers
 ---
+**Forecasting the Impact of IXP Outages Using Anycast**
+Leandro M. Bertholdo (University of Twente), Joao M. Ceron (SIDN Labs), Lisandro Zambenedetti Granville (Federal University of Rio Grande do Sul), Roland van Rijswijk-Deij (University of Twente)
+Accepted for publication at TMA2021.
+
+L. M. Bertholdo et al., **TANGLED: A Cooperative Anycast Testbed** , 2021 IFIP/IEEE International Symposium on Integrated Network Management (IM), 2021, pp. 766-771. 
+(**Best paper award**) [<img
+src="/img/pdf.png">](https://ieeexplore.ieee.org/document/9463960)
 
 Leandro M Bertholdo, João M. Ceron, Lisandro Z Granville, Giovane C. M. Moura, Cristian Hesselman, Roland van Rijswijk-Deij. 
 **BGP Anycast Tuner: Intuitive Route Management for Anycast Services**
