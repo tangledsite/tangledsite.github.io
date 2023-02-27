@@ -29,7 +29,7 @@ either operational or being installed.
 <div class="col-sm-12 col-sm-offset-0">
     <div class="row text-center">
         <div class="col-md-8 col-sm-8">
-            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1dkWksZFn4rdCOOPE2I6EGeZP0PnDEG-z" width="640" height="480"></iframe> 
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1dkWksZFn4rdCOOPE2I6EGeZP0PnDEG-z" width="1024" height="768"></iframe> 
         </div>
     </div>
 </div>
