@@ -15,7 +15,7 @@ Our traffic originates from the following IP ranges: `145.100.118.0/23` and `200
 
 ## What to do if our measurements cause inconvenience?
 
-We are committed to responsible network measurement practices to minimize the impact on infrastructure. If you believe our traffic is negatively affecting your systems, please contact us at tangled@utwente.nl so that we can work to resolve the problem. When reaching out to us, please provide the following information:
+We are committed to responsible network measurement practices to minimize the impact on infrastructure. If you believe our traffic is negatively affecting your systems, please [contact us](/contact) so that we can work to resolve the problem. When reaching out to us, please provide the following information:
 
 1. Your organization's name and a point of contact (name and email adddress).
 2. The IP address(es) or prefixes from which you are receiving problematic traffic.
