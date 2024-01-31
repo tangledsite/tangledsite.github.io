@@ -33,6 +33,7 @@ navbar-links:
     - Anycast Tuner: "https://github.com/SIDN/BGP-Anycast-Tuner"
   Testbed: "testbed" 
   People: "people" 
+  Traffic: "traffic"
   Contact: "contact"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
