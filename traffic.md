@@ -9,7 +9,7 @@ We thank you in advance for working with us to resolve any issues, and apologize
 ### What traffic to expect?
 
 Our measurements consist of a series of TCP, UDP, or ICMP packets sent to at most one IP address per /24 prefix. All packets are spaced at least 1 second apart. The order in which prefixes are selected is random to minimize load to larger networks.
-Our traffic originates from the following IP ranges: `145.100.118.0/23` and `2001:610:9000::/40`.
+Our traffic originates from the following IP ranges: `145.100.118.0/23`, `145.116.218.0/23`, and `2001:610:9000::/40`.
 
 ### What to do if our measurements cause inconvenience?
 
