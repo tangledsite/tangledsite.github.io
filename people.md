@@ -19,9 +19,9 @@ subtitle:
 * Wouter B. de Vries
 
 #### External
-* Cristian Hesselman
 * Jo&atilde;o Ceron
 * Marc Groeneweg
 * John Heidemann
+* Cristian Hesselman
 * Benno Overeinder
 * Aiko Pras
