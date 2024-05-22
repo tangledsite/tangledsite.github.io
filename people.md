@@ -4,15 +4,24 @@ title: Tangled Team
 subtitle:  
 ---
 
-#### Supporters 
-* Aiko Pras (Utwente)
-* Benno Overeinder (NLnet Labs)
-* Cristian Hesselman (SIDN)
-* Marc Groeneweg (SIDN)
+#### Core team
+* Bernhard Degen
+* Remi Hendriks
+* Raffaele Sommese
 
-#### External Contributors:
+#### Project management
+* Mattijs Jonker
+* Roland van Rijswijk-Deij
+
+#### Pioneers
 * Leandro Bertholdo
-* Jo&atilde;o  Ceron (SIDN Labs)
-* Wouter B. de Vries (Tesorion)
-* Ricardo de Oliveira Schmidt (UPF)
-* John Heidemann (USC)
+* Ricardo de Oliveira Schmidt
+* Wouter B. de Vries
+
+#### External
+* Cristian Hesselman
+* Jo&atilde;o Ceron
+* Marc Groeneweg
+* John Heidemann
+* Benno Overeinder
+* Aiko Pras
