@@ -2,6 +2,31 @@
 layout: page
 title: Papers
 ---
+Remi Hendriks, Matthew Luckie, Mattijs Jonker, Raffaele Sommese, and Roland van Rijswijk-Deij.
+**LACeS: An Open, Fast, Responsible and Efficient Longitudinal Anycast Census System.**
+ACM Internet Measurement Conference (IMC), 2025. (**Best Student Paper Award**)
+[<img src="/img/doi.png">](https://doi.org/10.1145/3730567.3764484)
+
+Remi Hendriks, Tim Betzer, Ben Du, Raffaele Sommese, Mattijs Jonker, and Roland van Rijswijk-Deij.
+**Locating and Enumerating Anycast: a Comparison of Two Approaches.**
+Applied Networking Research Workshop (ANRW), 2025.
+[<img src="/img/doi.png">](https://doi.org/10.1145/3744200.3744783)
+
+Remi Hendriks, Mattijs Jonker, Roland van Rijswijk-Deij, and Raffaele Sommese.
+**Load-Balancing Versus Anycast: A First Look at Operational Challenges.**
+IEEE Transactions on Network and Service Management, 2025.
+[<img src="/img/doi.png">](https://doi.org/10.1109/TNSM.2025.11268317)
+
+Remi Hendriks, Bernhard Degen, Baptiste Palinckx, Raffaele Sommese, and Roland van Rijswijk-Deij.
+**An Empirical Evaluation of Longitudinal Anycast Catchment Stability.**
+Passive and Active Measurement (PAM), LNCS vol. 15567, Springer, 2025.
+[<img src="/img/doi.png">](https://doi.org/10.1007/978-3-031-85960-1_16)
+
+Bernhard Degen, Mattijs Jonker, Roland van Rijswijk-Deij, and Raffaele Sommese.
+**An Empirical Characterization of Anycast Convergence Time.**
+Applied Networking Research Workshop (ANRW), 2024.
+[<img src="/img/doi.png">](https://doi.org/10.1145/3673422.3674890)
+
 **Forecasting the Impact of IXP Outages Using Anycast**
 Leandro M. Bertholdo (University of Twente), Joao M. Ceron (SIDN Labs), Lisandro Zambenedetti Granville (Federal University of Rio Grande do Sul), Roland van Rijswijk-Deij (University of Twente)
 Accepted for publication at TMA2021.
