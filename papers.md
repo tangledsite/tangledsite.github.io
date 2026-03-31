@@ -19,7 +19,7 @@ IEEE Transactions on Network and Service Management, 2025.
 [<img src="/img/pdf.png">](https://arxiv.org/html/2503.14351v2)
 [<img src="/img/doi.png">](https://doi.org/10.1109/TNSM.2025.3636785)
 
-Remi Hendriks, Bernhard Degen, Baptiste Palinckx, Raffaele Sommese, and Roland van Rijswijk-Deij.
+Remi Hendriks, Bernhard Degen, Bas Palinckx, Raffaele Sommese, and Roland van Rijswijk-Deij.
 **An Empirical Evaluation of Longitudinal Anycast Catchment Stability.**
 Passive and Active Measurement (PAM), LNCS vol. 15567, Springer, 2025.
 [<img src="/img/pdf.png">](https://ris.utwente.nl/ws/portalfiles/portal/499495935/978-3-031-85960-1_16.pdf)
