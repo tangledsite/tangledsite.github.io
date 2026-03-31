@@ -34,6 +34,7 @@ either operational or being installed.
 <style>
 .badge-vultr    { background-color:#007bff;color:white;padding:2px 8px;border-radius:4px;font-size:.85em; }
 .badge-melbicom { background-color:#e67e22;color:white;padding:2px 8px;border-radius:4px;font-size:.85em; }
+.badge-both     { background-color:#6f42c1;color:white;padding:2px 8px;border-radius:4px;font-size:.85em; }
 .vp-table { border-collapse:collapse;width:100%;font-size:.92em; }
 .vp-table th { border-bottom:2px solid #ddd;padding:6px 10px;cursor:pointer;user-select:none;white-space:nowrap; }
 .vp-table th:hover { background:#f5f5f5; }
@@ -45,7 +46,8 @@ either operational or being installed.
 
 <p style="margin-top:.5em;">
   <span class="badge-vultr">Vultr</span>&nbsp;
-  <span class="badge-melbicom">Melbicom</span>
+  <span class="badge-melbicom">Melbicom</span>&nbsp;
+  <span class="badge-both">Vultr + Melbicom</span>
   &nbsp;—&nbsp; Click a column header to sort. Click a row to highlight it on the map.
 </p>
 
@@ -149,6 +151,15 @@ var vpSites = [
   ["nl-ams", "Amsterdam",    "Netherlands",   "Europe",         52.3785,   4.8998, "Melbicom"]
 ];
 
+// --- Detect dual-provider cities (same lat/lon in both Vultr and Melbicom) ---
+function coordKey(s) { return s[4].toFixed(4) + ',' + s[5].toFixed(4); }
+var coordProviders = {};
+vpSites.forEach(function(s) {
+  var k = coordKey(s);
+  if (!coordProviders[k]) coordProviders[k] = [];
+  if (coordProviders[k].indexOf(s[6]) === -1) coordProviders[k].push(s[6]);
+});
+
 // --- Map ---
 var map = L.map('testbed-map').setView([20, 10], 2);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -158,15 +169,23 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 var styleVultr   = {radius:7, fillColor:'#007bff', color:'#0056b3', weight:1, opacity:1, fillOpacity:.85};
 var styleMelbi   = {radius:7, fillColor:'#e67e22', color:'#b35700', weight:1, opacity:1, fillOpacity:.85};
+var styleBoth    = {radius:7, fillColor:'#6f42c1', color:'#4a2880', weight:1, opacity:1, fillOpacity:.85};
 var styleHighlit = {radius:9, fillColor:'#ffc107', color:'#856404', weight:2, opacity:1, fillOpacity:1};
 
+// One marker per unique lat/lon; dual-provider coords get purple marker
+var markerByCoord = {};
 var vpMarkers = vpSites.map(function(s, i) {
-  var style = s[6] === 'Vultr' ? styleVultr : styleMelbi;
-  var m = L.circleMarker([s[4], s[5]], style).addTo(map);
-  m.bindPopup('<b>' + s[1] + ', ' + s[2] + '</b><br>' + s[0] + ' &mdash; ' + s[6]);
-  m._vpIndex = i;
-  m._vpOrigStyle = style;
-  return m;
+  var k = coordKey(s);
+  if (!markerByCoord[k]) {
+    var isDual = coordProviders[k].length > 1;
+    var style  = isDual ? styleBoth : (s[6] === 'Vultr' ? styleVultr : styleMelbi);
+    var provLabel = isDual ? 'Vultr + Melbicom' : s[6];
+    var m = L.circleMarker([s[4], s[5]], style).addTo(map);
+    m.bindPopup('<b>' + s[1] + ', ' + s[2] + '</b><br>' + s[0] + ' &mdash; ' + provLabel);
+    m._vpOrigStyle = style;
+    markerByCoord[k] = m;
+  }
+  return markerByCoord[k];
 });
 
 var legend = L.control({position:'bottomright'});
@@ -175,7 +194,8 @@ legend.onAdd = function() {
   d.style.cssText = 'background:white;padding:8px 12px;border-radius:4px;border:1px solid #ccc;font-size:13px;line-height:1.9;';
   d.innerHTML =
     '<span style="display:inline-block;width:12px;height:12px;border-radius:50%;background:#007bff;margin-right:6px;vertical-align:middle;"></span>Vultr<br>' +
-    '<span style="display:inline-block;width:12px;height:12px;border-radius:50%;background:#e67e22;margin-right:6px;vertical-align:middle;"></span>Melbicom';
+    '<span style="display:inline-block;width:12px;height:12px;border-radius:50%;background:#e67e22;margin-right:6px;vertical-align:middle;"></span>Melbicom<br>' +
+    '<span style="display:inline-block;width:12px;height:12px;border-radius:50%;background:#6f42c1;margin-right:6px;vertical-align:middle;"></span>Vultr + Melbicom';
   return d;
 };
 legend.addTo(map);
@@ -190,9 +210,12 @@ function vpRender(data) {
   data.forEach(function(s, i) {
     var tr = document.createElement('tr');
     tr.dataset.idx = s._origIdx;
-    var badge = s[6] === 'Vultr'
-      ? '<span class="badge-vultr">Vultr</span>'
-      : '<span class="badge-melbicom">Melbicom</span>';
+    var isDual = coordProviders[coordKey(s)].length > 1;
+    var badge = isDual
+      ? '<span class="badge-both">Vultr + Melbicom</span>'
+      : (s[6] === 'Vultr'
+          ? '<span class="badge-vultr">Vultr</span>'
+          : '<span class="badge-melbicom">Melbicom</span>');
     tr.innerHTML =
       '<td>' + s[0] + '</td>' +
       '<td>' + s[1] + '</td>' +
