@@ -50,24 +50,56 @@ either operational or being installed.
 </p>
 
 <table class="vp-table">
-<thead><tr><th>Location</th><th>IPv4</th><th>IPv6</th><th>Provider</th></tr></thead>
+<thead><tr><th>Location</th><th>Provider</th></tr></thead>
 <tbody>
-<tr><td>us-atl</td><td>162.247.153.111</td><td>2a06:f901:8001:100::be24:e4a7</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
-<tr><td>es-mad</td><td>185.120.139.188</td><td>2a06:f906:1:100:9000:9000:15af:f428</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
-<tr><td>se-sto</td><td>109.122.201.101</td><td>2a06:f903:4001:100::184b:8568</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
-<tr><td>in-mum</td><td>103.111.114.210</td><td>2a06:f902:8001:100::c393:3599</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
-<tr><td>sn-sin</td><td>91.192.81.90</td><td>2407:d140:1:100:9000:9000:1f1c:1640</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
-<tr><td>us-lax</td><td>162.247.153.195</td><td>2a06:f901:8001:100::38ea:1a2a</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
-<tr><td>ua-fuj</td><td>89.36.162.106</td><td>2a06:f902:4001:100:9000:9000:ec45:82f2</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
-<tr><td>ni-lag</td><td>176.97.192.246</td><td>2a06:f901:4001:100::e601:205a</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
-<tr><td>fr-par</td><td>185.35.221.16</td><td>2a06:f902:c001:100::300e:4e81</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
-<tr><td>bu-sof</td><td>213.183.63.13</td><td>2a06:f904:1:100::3</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
-<tr><td>it-pal</td><td>91.201.67.174</td><td>2a06:f905:1:100::12</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
-<tr><td>li-vil</td><td>195.238.126.209</td><td>2a06:f907:1:100::7a</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
-<tr><td>la-rig</td><td>185.135.86.66</td><td>2a06:f907:4001:100::cc</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
-<tr><td>de-fra</td><td>213.226.68.32</td><td>2a06:f902:1:100::c9</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
-<tr><td>ru-mos</td><td>213.183.48.180</td><td>2a06:f900:1:100::430</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
-<tr><td>nl-ams</td><td>213.183.61.194</td><td>2a06:f901:1:100::4d3</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
+<tr><td>br-sao</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>us-hnl</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>nl-ams</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>us-atl</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>in-blr</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>us-ord</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>us-dfw</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>in-del</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>de-fra</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>za-jnb</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>gb-lhr</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>us-lax</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>es-mad</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>gb-man</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>au-mel</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>mx-mex</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>us-mia</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>in-bom</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>us-ewr</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>jp-itm</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>fr-cdg</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>cl-scl</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>us-sea</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>kr-icn</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>us-sjc</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>sg-sgp</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>se-sto</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>au-syd</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>il-tlv</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>jp-nrt</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>ca-yto</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>pl-waw</td><td><span class="badge-vultr">Vultr</span></td></tr>
+<tr><td>us-atl</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
+<tr><td>es-mad</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
+<tr><td>se-sto</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
+<tr><td>in-mum</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
+<tr><td>sn-sin</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
+<tr><td>us-lax</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
+<tr><td>ua-fuj</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
+<tr><td>ni-lag</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
+<tr><td>fr-par</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
+<tr><td>bu-sof</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
+<tr><td>it-pal</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
+<tr><td>li-vil</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
+<tr><td>la-rig</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
+<tr><td>de-fra</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
+<tr><td>ru-mos</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
+<tr><td>nl-ams</td><td><span class="badge-melbicom">Melbicom</span></td></tr>
 </tbody>
 </table>
 
