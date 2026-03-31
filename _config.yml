@@ -31,6 +31,7 @@ navbar-links:
     - TTL example: "https://github.com/joaoceron/verfploeter-ttl-investigation"
     - BigQuery example: "https://github.com/LMBertholdo/BQ-rtt"
     - Anycast Tuner: "https://github.com/SIDN/BGP-Anycast-Tuner"
+    - Anycast Census: "https://manycast.net"
   Testbed: "testbed" 
   People: "people" 
   Traffic: "traffic"
