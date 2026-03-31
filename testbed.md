@@ -57,8 +57,6 @@ either operational or being installed.
   <th onclick="vpSort(1)">City<span class="sort-arrow" id="vp-arr-1"></span></th>
   <th onclick="vpSort(2)">Country<span class="sort-arrow" id="vp-arr-2"></span></th>
   <th onclick="vpSort(3)">Continent<span class="sort-arrow" id="vp-arr-3"></span></th>
-  <th onclick="vpSort(4)">Lat<span class="sort-arrow" id="vp-arr-4"></span></th>
-  <th onclick="vpSort(5)">Lon<span class="sort-arrow" id="vp-arr-5"></span></th>
   <th onclick="vpSort(6)">Provider<span class="sort-arrow" id="vp-arr-6"></span></th>
 </tr></thead>
 <tbody id="vp-tbody"></tbody>
@@ -221,8 +219,6 @@ function vpRender(data) {
       '<td>' + s[1] + '</td>' +
       '<td>' + s[2] + '</td>' +
       '<td>' + s[3] + '</td>' +
-      '<td>' + s[4].toFixed(4) + '</td>' +
-      '<td>' + s[5].toFixed(4) + '</td>' +
       '<td>' + badge + '</td>';
     tr.addEventListener('click', function() { vpRowClick(this); });
     tbody.appendChild(tr);
