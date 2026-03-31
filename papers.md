@@ -5,6 +5,7 @@ title: Papers
 Remi Hendriks, Matthew Luckie, Mattijs Jonker, Raffaele Sommese, and Roland van Rijswijk-Deij.
 **LACeS: An Open, Fast, Responsible and Efficient Longitudinal Anycast Census System.**
 ACM Internet Measurement Conference (IMC), 2025. (**Best Student Paper Award**)
+[<img src="/img/pdf.png">](https://manycast.net/laces.pdf)
 [<img src="/img/doi.png">](https://doi.org/10.1145/3730567.3764484)
 
 Remi Hendriks, Tim Betzer, Ben Du, Raffaele Sommese, Mattijs Jonker, and Roland van Rijswijk-Deij.
@@ -15,11 +16,13 @@ Applied Networking Research Workshop (ANRW), 2025.
 Remi Hendriks, Mattijs Jonker, Roland van Rijswijk-Deij, and Raffaele Sommese.
 **Load-Balancing Versus Anycast: A First Look at Operational Challenges.**
 IEEE Transactions on Network and Service Management, 2025.
-[<img src="/img/doi.png">](https://doi.org/10.1109/TNSM.2025.11268317)
+[<img src="/img/pdf.png">](https://arxiv.org/html/2503.14351v2)
+[<img src="/img/doi.png">](https://doi.org/10.1109/TNSM.2025.3636785)
 
 Remi Hendriks, Bernhard Degen, Baptiste Palinckx, Raffaele Sommese, and Roland van Rijswijk-Deij.
 **An Empirical Evaluation of Longitudinal Anycast Catchment Stability.**
 Passive and Active Measurement (PAM), LNCS vol. 15567, Springer, 2025.
+[<img src="/img/pdf.png">](https://ris.utwente.nl/ws/portalfiles/portal/499495935/978-3-031-85960-1_16.pdf)
 [<img src="/img/doi.png">](https://doi.org/10.1007/978-3-031-85960-1_16)
 
 Bernhard Degen, Mattijs Jonker, Roland van Rijswijk-Deij, and Raffaele Sommese.
