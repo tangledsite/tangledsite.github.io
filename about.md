@@ -21,8 +21,9 @@ and running in its networks. Industry can use it to validate the implementation 
 
 If you use TANGLED in your research, please cite:
 
-```bibtex
-@INPROCEEDINGS{tangled2021,
+<div style="position:relative;">
+  <button id="bibtex-copy-btn" onclick="var btn=document.getElementById('bibtex-copy-btn');navigator.clipboard.writeText(document.getElementById('bibtex').innerText).then(function(){btn.innerText='Copied!';setTimeout(function(){btn.innerText='Copy'},2000)})" style="position:absolute;top:8px;right:8px;padding:3px 10px;font-size:0.8em;cursor:pointer;">Copy</button>
+  <pre id="bibtex">@INPROCEEDINGS{tangled2021,
   author={Bertholdo, Leandro M. and Ceron, João M. and de Vries, Wouter B. and Schmidt, Ricardo de Oliveira and Granville, Lisandro Zambenedetti and van Rijswijk-Deij, Roland and Pras, Aiko},
   booktitle={2021 IFIP/IEEE International Symposium on Integrated Network Management (IM)},
   title={{TANGLED: A Cooperative Anycast Testbed}},
@@ -30,6 +31,6 @@ If you use TANGLED in your research, please cite:
   pages={766-771},
   doi={10.1109/IM47780.2021.9463960},
   publisher={IEEE},
-}
-```
+}</pre>
+</div>
 
