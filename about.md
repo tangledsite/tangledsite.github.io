@@ -17,4 +17,19 @@ Anycast routing has attracted interest in recent years as a technology for CDNs 
 The deployed infrastructure was designed to create industry and academy cooperation. TANGLED enables researchers to answer your research questions while allows transit providers or other autonomous systems an easy way to get research tooling implemented 
 and running in its networks. Industry can use it to validate the implementation of complex routing agreements and much more.
 
+## Cite us
+
+If you use TANGLED in your research, please cite:
+
+```bibtex
+@INPROCEEDINGS{tangled2021,
+  author={Bertholdo, Leandro M. and Ceron, João M. and de Vries, Wouter B. and Schmidt, Ricardo de Oliveira and Granville, Lisandro Zambenedetti and van Rijswijk-Deij, Roland and Pras, Aiko},
+  booktitle={2021 IFIP/IEEE International Symposium on Integrated Network Management (IM)},
+  title={{TANGLED: A Cooperative Anycast Testbed}},
+  year={2021},
+  pages={766-771},
+  doi={10.1109/IM47780.2021.9463960},
+  publisher={IEEE},
+}
+```
 
