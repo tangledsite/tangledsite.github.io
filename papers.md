@@ -41,7 +41,7 @@ src="/img/pdf.png">](https://ieeexplore.ieee.org/document/9463960)
 <details>
 <summary>BibTeX</summary>
 <pre>
-@INPROCEEDINGS{tangled2021,
+{% raw %}@INPROCEEDINGS{tangled2021,
   author={Bertholdo, Leandro M. and Ceron, João M. and de Vries, Wouter B. and Schmidt, Ricardo de Oliveira and Granville, Lisandro Zambenedetti and van Rijswijk-Deij, Roland and Pras, Aiko},
   booktitle={2021 IFIP/IEEE International Symposium on Integrated Network Management (IM)},
   title={{TANGLED: A Cooperative Anycast Testbed}},
@@ -49,7 +49,7 @@ src="/img/pdf.png">](https://ieeexplore.ieee.org/document/9463960)
   pages={766-771},
   doi={10.1109/IM47780.2021.9463960},
   publisher={IEEE},
-}
+}{% endraw %}
 </pre>
 </details>
 
